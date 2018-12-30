@@ -1,0 +1,24 @@
+{
+  "name": "gbooks",
+  "version": "1.0.0",
+  "description": "Google Books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnmccarthy/week1.git"
+  },
+  "author": "Shawn McCarthy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawnmccarthy/week1/issues"
+  },
+  "homepage": "https://github.com/shawnmccarthy/week1#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0"
+  }
+}
