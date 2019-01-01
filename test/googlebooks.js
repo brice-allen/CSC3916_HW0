@@ -19,6 +19,19 @@ describe('Test Async Books', () => {
                 });
             });
            done();
+        }).catch(err => done(err));
+    });
+
+    it('should return an error with list books with "" in the title', function(done) {
+        getBooks('').then((result) => {
+            console.log(result);
+            let books = JSON.parse(result);
+            expect(books).to.be.an('object');
+            done();
+        }).catch(err => {
+                //expect(err.response).to.have.status(400);
+                expect(err.response.status).to.be.equal(400);
+                done();
         });
     });
 });
