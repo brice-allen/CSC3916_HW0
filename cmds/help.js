@@ -3,11 +3,12 @@ const menus = {
     gbooks [command] <options>
 
     books .............. show books 
+    fib ................ show fib #
     version ............ show package version
     help ............... show help menu for a command`,
 
-    today: `
-    outside today <options>
+    books: `
+    gbooks books <options>
 
     --phrase, -p ..... the phrase to use`,
 }

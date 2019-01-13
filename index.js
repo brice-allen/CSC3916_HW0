@@ -21,6 +21,11 @@ switch (cmd) {
         require('./cmds/version')(args)
         break
 
+    case 'fib':
+        let fib = require('./cmds/fib')
+        console.log(fib(parseInt(args._[1])));
+        break;
+
     case 'help':
         require('./cmds/help')(args)
         break
