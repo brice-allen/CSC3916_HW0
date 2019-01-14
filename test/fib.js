@@ -1,5 +1,5 @@
 let chai = require('chai');
-let fib = require('../cmds/fib');
+let fib = require('../utils/fib');
 let expect = chai.expect;
 
 describe("fib tests", () => {
