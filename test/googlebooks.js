@@ -25,7 +25,7 @@ describe('Test Async Books', () => {
     it('should return an error with list books with "" in the title', function(done) {
         getBooks('').then((result) => {
             console.log(result);
-            let books = JSON.parse(result);
+            let books = JSON.parse(result).data;
             expect(books).to.be.an('object');
             done();
         }).catch(err => {

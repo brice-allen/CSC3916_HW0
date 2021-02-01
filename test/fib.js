@@ -11,7 +11,7 @@ describe("fib tests", () => {
         expect(Array.isArray(fib(5))).to.be.true;
     });
 
-    it("should throw an error when patameter is 0", () => {
+    it("should throw an error when parameter is 0", () => {
         expect(() => fib(0)).to.throw("Target count cannot be 0");
     });
 
