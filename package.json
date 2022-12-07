@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/shawnmccarthy/week1#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "minimist": "^1.2.6",
     "ora": "^3.0.0"
   },
